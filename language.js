@@ -1,3 +1,17 @@
+/* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
+
+OLASI DURUMLARDAN SİRİ SORUMLULUK KABUL ETMEZ
+
+Telegram / @orgutsahibi
+
+GitHub / ErdemBey1
+
+WhatsSiri SİRİ-ERDEM/BEY
+
+OWNER|ErdemBey
+
+*/
+
 const Config = require('./config');
 const fs = require('fs');
 const chalk = require('chalk');

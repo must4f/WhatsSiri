@@ -1,6 +1,6 @@
 {
   "name": "WhatsSiri",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "WhatsSiri project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./WhatsSiri/bot.js",
   "scripts": {

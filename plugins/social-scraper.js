@@ -1,21 +1,11 @@
-/*
-# Copyright (C) 2020 MuhammedKpln.
-# edited by Vai838
+/* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
+OLASI DURUMLARDAN SİRİ SORUMLULUK KABUL ETMEZ
+Telegram / @orgutsahibi
+GitHub / ErdemBey1
 
-# WhatsSiri is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# WhatsSiri is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-#
+WhatsSiri SİRİ-ERDEM/BEY
 
+OWNER|ErdemBey
 */
 
 const Siri = require('../events')
@@ -82,13 +72,13 @@ if (cn.WORKTYPE == 'private') {
         await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text)
 
         await axios
-          .get(`https://api.xteam.xyz/dl/tiktok?url=${userName}&APIKEY=ab9942f95c09ca89`)
+          .get(`https://shinoa-rest.herokuapp.com/dl/tiktok?link=${userName}`)
           .then(async (response) => {
             const {
-              server_1,
+              data,
             } = response.data
 
-            const profileBuffer = await axios.get(server_1, {
+            const profileBuffer = await axios.get(data.mp4, {
               responseType: 'arraybuffer',
             })
 
@@ -156,13 +146,13 @@ else if (cn.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text)
 
         await axios
-          .get(`https://api.xteam.xyz/dl/tiktok?url=${userName}&APIKEY=ab9942f95c09ca89`)
+          .get(`https://shinoa-rest.herokuapp.com/dl/tiktok?link=${userName}`)
           .then(async (response) => {
             const {
-              server_1,
+              data,
             } = response.data
 
-            const profileBuffer = await axios.get(server_1, {
+            const profileBuffer = await axios.get(data.mp4, {
               responseType: 'arraybuffer',
             })
 

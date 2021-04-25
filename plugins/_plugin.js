@@ -1,9 +1,15 @@
 /* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
-OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMİYORUZ SİRİ-DEV
+OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMEZ
+Telegram / @orgutsahibi
+GitHub / ErdemBey1
+
 WhatsSiri SİRİ-ERDEM/BEY
+
+OWNER|ErdemBey
 */
 
 const Siri = require('../events');
+const Heroku = require('heroku-client');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
@@ -12,9 +18,17 @@ const Db = require('./sql/plugin');
 
 const Language = require('../language');
 const Lang = Language.getString('_plugin');
+const NLang = Language.getString('updater');
 
-Siri.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, usage: '.install https://gist.github.com/Quiec/cd5af0c153a613ba55c24f8c6b6f5565'}, (async (message, match) => {
-    if (match[1] === '') return await message.sendMessage('```' + Lang.NEED_URL + '.install https://gist.github.com/Quiec/cd5af0c153a613ba55c24f8c6b6f5565```')
+const heroku = new Heroku({
+    token: Config.HEROKU.API_KEY
+});
+
+
+let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
+
+Siri.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC}, (async (message, match) => {
+    if (match[1] === '') return await message.sendMessage(Lang.NEED_URL + '.install LİNK')
     try {
         var url = new URL(match[1]);
     } catch {
@@ -76,6 +90,17 @@ Siri.addCommand({pattern: 'remove(?: |$)(.*)', fromMe: true, desc: Lang.REMOVE_D
         await plugin[0].destroy();
         delete require.cache[require.resolve('./' + match[1] + '.js')]
         fs.unlinkSync('./plugins/' + match[1] + '.js');
-        return await message.client.sendMessage(message.jid, Lang.DELETED, MessageType.text);
+        await message.client.sendMessage(message.jid, Lang.DELETED, MessageType.text);
+        
+        await new Promise(r => setTimeout(r, 1000));
+    
+        await message.sendMessage(NLang.AFTER_UPDATE);
+
+        console.log(baseURI);
+        await heroku.delete(baseURI + '/dynos').catch(async (error) => {
+            await message.sendMessage(error.message);
+
+        });
     }
+
 }));

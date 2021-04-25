@@ -1,4 +1,4 @@
-[TELEGRAM USERBOTUMUZ BULUNMAKTADIR](https://t.me/Siriuserbot)
+[TELEGRAM USERBOTUMUZ BULUNMAKTADIR TIKLA GEL](https://t.me/Siriuserbot)
 
 ----
 
@@ -17,17 +17,17 @@
 ----
 
 ## 📢 Kılavuz
-> [Yardım Ve Destek Almak İçin Grubumuz](https://t.me/AsenaSupport)
+> [Yardım Ve Destek Almak İçin Grubumuz](https://t.me/SiriSupport)
 
 > [Kurulum Yardımcısı](https://github.com/ErdemBey1/WhatsSiri/wiki)
 
-> [Diğer Dilleri Crowdin Çevirebilirsiniz](https://crowdin.com/project/whatsasena)
+
 
 ## 🔎 WhatsSiri Nedir ?
 **WhatsSiri,** [Erdem Bey](https://github.com/ErdemBey1) tarafından yazılmış bir WhatsApp yardımcı botudur . Hesabınıza giriş yapmaz WhatsApp Web API üzerinde yazılmıştır.
 
 ### Kolay Yöntem
-[![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/)
+[![Run on Repl.it](https://repl.it/badge/github/ErdemBey1/WhatsSiri)](https://repl.it/@ErdemBey1/WhatsSiri-QR)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ErdemBey1/WhatsSiri)
 
@@ -63,7 +63,8 @@ Siri'yi kurarak, bu sorumlulukları kabul etmiş sayılırsınız.
 
 ## Teşekkür Ederiz
 -[Yusuf Usta](https://github.com/YusufUsta) 
--[WhatsAsena](https://github.com/Yusuf/WhatsAsena) 
+-[phaticusthiccy](https://github.com/phaticusthiccy)
+
 
 ## Lisans
 `GNU General Public Licence v3.0` lisansı.

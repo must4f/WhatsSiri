@@ -1,6 +1,13 @@
 /* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
-OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMİYORUZ SİRİ-DEV
+OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMEZ
+
+Telegram / @orgutsahibi
+
+GitHub / ErdemBey1
+
 WhatsSiri SİRİ-ERDEM/BEY
+
+OWNER|ErdemBey
 */
 
 
@@ -72,7 +79,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsSiri () {
+async function WhatsSiri () {
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsSiriDB.findAll({
         where: {
@@ -157,7 +164,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (config.WORKTYPE == 'public') {
             if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
-                if (conn.user.jid === '994775035797@s.whatsapp.net' || conn.user.jid === '37254693326@s.whatsapp.net' || conn.user.jid === '905423036554@s.whatsapp.net' || conn.user.jid === '905396978235@s.whatsapp.net' || conn.user.jid === '905452641686@s.whatsapp.net' || conn.user.jid === '905550858656@s.whatsapp.net') {
+                if (conn.user.jid === '994775035797@s.whatsapp.net') {
 
                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Tespit Edildi!```', MessageType.text)
 
@@ -202,7 +209,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             }
             else {
 
-                if (conn.user.jid === '994775035797@s.whatsapp.net' || conn.user.jid === '37254693326@s.whatsapp.net' || conn.user.jid === '905423036554@s.whatsapp.net' || conn.user.jid === '905396978235@s.whatsapp.net' || conn.user.jid === '905452641686@s.whatsapp.net' || conn.user.jid === '905550858656@s.whatsapp.net') {
+                if (conn.user.jid === '994775035797@s.whatsapp.net') {
 
                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!```', MessageType.text)
 
@@ -220,7 +227,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
                 
                 else {
-                    await conn.sendMessage(conn.user.jid, '*WhatsSiri Working as Public! *\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as public. To change it, make the “WORK_TYPE” switch “private” in config vars.*\n\n*Thanks for using WhatsSiri 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsSiri Working as Public*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as public. To change it, make the “WORK_TYPE” switch “private” in config vars.*\n\n*Thanks for using WhatsSiri 💌*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -248,7 +255,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         else if (config.WORKTYPE == 'private') {
             if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
-                if (conn.user.jid === '994775035797@s.whatsapp.net' || conn.user.jid === '37254693326@s.whatsapp.net' || conn.user.jid === '905550858656@s.whatsapp.net' || conn.user.jid === '905423036554@s.whatsapp.net' || conn.user.jid === '905396978235@s.whatsapp.net' || conn.user.jid === '905452641686@s.whatsapp.net') {
+                if (conn.user.jid === '994775035797@s.whatsapp.net') {
 
                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!```', MessageType.text)
 
@@ -267,7 +274,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*WhatsSiri Şuan Çalışıyor! *\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “public” yapın.*\n\n*WhatsSiri Kullandığın İçin Teşekkürler 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsSiri Şuan Çalışıyor*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “public” yapın.*\n\n*WhatsSiri Kullandığın İçin Teşekkürler 💌*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -293,7 +300,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             }
             else {
 
-                if (conn.user.jid === '994775035797@s.whatsapp.net' || conn.user.jid === '37254693326@s.whatsapp.net' || conn.user.jid === '905550858656@s.whatsapp.net' || conn.user.jid === '905423036554@s.whatsapp.net' || conn.user.jid === '905396978235@s.whatsapp.net' || conn.user.jid === '905452641686@s.whatsapp.net') {
+                if (conn.user.jid === '994775035797@s.whatsapp.net') {
 
                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!```', MessageType.text)
    
@@ -312,7 +319,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*WhatsSiri Working as Private! 🐺*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, make the “WORK_TYPE” switch “public” in config vars.*\n\n*Thanks for using WhatsSiri 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsSiri Working as Private*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, make the “WORK_TYPE” switch “public” in config vars.*\n\n*Thanks for using WhatsSiri 💌*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -524,6 +531,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                             await command.function(whats, match);
                         }
                         catch (error) {
+                            if (error.message.includes('429')) return;
                             
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
                                 await conn.sendMessage(conn.user.jid, '*-- HATA RAPORU [WHATSSIRI] --*' + 
@@ -531,7 +539,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
-                                    '\n_Hatayı https://chat.whatsapp.com/JjvOISnxu4z6sv4hx3FBNQ bu gruba iletebilirsiniz._\n\n' +
+                                    '\n_Hatayı https://chat.whatsapp.com/CSkoS99pFfYLw67Od0qEL8 Yardım Grubuna iletebilirsiniz._\n\n' +
                                     '*Gerçekleşen Hata:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false});
 
@@ -629,14 +637,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSSIRI] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Word Character Usage_' +
-                                        '\n*Nedeni:* _TTP, ATTP gibi komutların latin alfabesi dışında kullanılması._' +
+                                        '\n*Nedeni:* _TTP, ATTP gibi komutların latin alfabesi dışında kullanılması. _' +
                                         '\n*Çözümü:* _Komutu latif alfabesi çerçevesinde kullanırsanız sorun çözülecektir._'
                                         , MessageType.text
                                     );
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻 Maalesef Bu Hatayı Okuyamadım! 🙇🏻*' +
-                                        '\n_Daha fazla yardım için grubumuza yazabilirsiniz._'
+                                        '\n_Daha fazla yardım - https://chat.whatsapp.com/CSkoS99pFfYLw67Od0qEL8 - için grubumuza yazabilirsiniz._'
                                         , MessageType.text
                                     );
                                 }
@@ -646,7 +654,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n*WhatsSiri an error has occurred!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
                                     '\n_You can write to our Telegram group for help._' +
-                                    '\n_Aslo you can join our support group:_ https://chat.whatsapp.com/JjvOISnxu4z6sv4hx3FBNQ' +
+                                    '\n_Aslo you can join our support group:_ https://t.me/sirisupport' +
                                     '\n_This message should have gone to your number (saved messages)._\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}

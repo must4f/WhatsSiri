@@ -14,7 +14,7 @@
         "_plugin": {
             "INSTALL_DESC": "Install external plugins.",
             "NEED_URL": "Please enter a URL! Example:",
-            "INVALID_URL": "```Please enter a valid url!```",
+            "INVALID_URL": "```Please Enter a valid url!```",
             "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
             "INSTALLED": "*✅ Plugin has been successfully installed!*",
             "PLUGIN_DESC": "Shows the plugins you have installed.",

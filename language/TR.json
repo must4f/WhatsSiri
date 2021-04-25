@@ -12,7 +12,7 @@
             "WARN": "Uyarı"
         },
         "_plugin": {
-            "INSTALL_DESC": "Plugin yükler.\n⌨️ Örnek: .install https://gist.github.com/phaticusthiccy/d41dd4428faf34ab8cfd4c392501c62e",
+            "INSTALL_DESC": "Plugin yükler.\n⌨️ Örnek: .install LİNK",
             "NEED_URL": "Lütfen bir URL giriniz! Örnek:",
             "INVALID_URL": "```Lütfen bir geçerli URL giriniz!```",
             "INVALID_PLUGIN": "*❌ Plugininiz hatalı!*\n*Hata:*",
@@ -21,7 +21,7 @@
             "INSTALLED_FROM_REMOTE": "*Dışarıdan yüklediğiniz pluginler:*\n",
             "NO_PLUGIN": "*Dışarıdan hiç plugin yüklememişsiniz!*",
             "REMOVE_DESC": "Plugin kaldırır.",
-            "NEED_PLUGIN": "```Lütfen bir Plugin giriniz! Örnek: .plugin test```",
+            "NEED_PLUGIN": "```Lütfen Bir Plugin giriniz! Örnek: .plugin test```",
             "NOT_FOUND_PLUGIN": "```Böyle bir plugin belki yüklediniz, belki de yüklemediniz. Ama şu an olmadığı kesin.```",
             "DELETED": "*✅ Modül başarıyla silindi!*"
         },
