@@ -59,7 +59,7 @@ Siri'yi kurarak, bu sorumlulukları kabul etmiş sayılırsınız.
 ```
 
 ### Geliştiriciler / Developers
-[![Sam Pandey](https://github.com/sam-pandey.png?size=100)](https://github.com/sam-pandey) [![Erdem Bey](https://github.com/erdembey1.png?size=100)](https://github.com/erdembey1)  [![Midy](https://github.com/ribonney.png?size=100)](https://github.com/ribonney)  [![Berce](https://github.com/must4f.png?size=100)](https://github.com/must4f)
+[![Erdem Bey](https://github.com/erdembey1.png?size=100)](https://github.com/erdembey1)  [![Midy](https://github.com/ribonney.png?size=100)](https://github.com/ribonney)  [![Berce](https://github.com/must4f.png?size=100)](https://github.com/must4f)
 
 
 ## Lisans
