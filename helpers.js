@@ -9,7 +9,7 @@ OWNER|ErdemBey
 */
 
 function successfullMessage(msg) {
-    return "✅ *WhatsASri:** ```" + msg + "```"
+    return "✅ *WhatsSiri:** ```" + msg + "```"
 }
 function errorMessage(msg) {
     return "❌ *WhatsSiri*:  ```" + msg + "```"
