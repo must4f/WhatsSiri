@@ -19,7 +19,7 @@ class Base {
         return Object.assign(Object.create(this), this);
     }
     
-    _patch(data) { return data }
+    _patch(data) { return data; }
 }
 
 module.exports = Base;
