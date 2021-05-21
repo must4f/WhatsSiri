@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
 
             MessageType.image, 
 
-            { mimetype: Mimetype.image, caption: "*●▬▬▬ Siri A Userbot  ▬▬▬●*\n```Siri Her Yerde Siri Şuan Sahibin Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/SiriSupport\n*Telegram Channel:* https://t.me/WhatsSiri' , MessageType.text }
+            { mimetype: Mimetype.image, caption: "*●▬▬▬ Siri A Userbot ▬▬▬●*\n*Merhaba Ben Siri.*\n```Sahibimin Emirlerini Yerine Getirmek İçin Buradayım```\n*Siri Sahibi İçin Çalışıyor*\n```Yer Şey Yolunda Ve Çalışmaktayım```\n*Grade:* ```Developer```\n*Branch:* ```Master```\n*En Sevdiğim İş:*```Hizmet```\n\n*Developed by 𓆩Erdem Bey𓆪 *" }
 
         )
 
