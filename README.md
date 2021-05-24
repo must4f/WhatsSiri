@@ -11,6 +11,7 @@
     <br>
 </p>
 
+![Docker Pulls](https://img.shields.io/docker/pulls/erdembey/siriuserbot?style=flat-square)
 ----
 
 ## 📢 Kılavuz
