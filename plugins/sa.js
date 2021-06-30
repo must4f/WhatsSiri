@@ -13,8 +13,4 @@ Siri.addCommand({pattern: 'sa', fromMe: true}, (async (message, match) => {
 
 }));
 
-Siri.addCommand({pattern: 'infosa', fromMe: true}, (async (message, match) => {
 
-    await message.sendMessage("*Codded by Erdem Bey*\n*WhatsApptada Selam Verelim dimi.*\n💻Usage: *.sa*")
-
-}));

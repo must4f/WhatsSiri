@@ -21,7 +21,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatssiri.db' : proce
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v1.0 Global Stable',
+    VERSION: 'v1.1 Global Stable',
     SESSION: process.env.SIRI_SESSION === undefined ? '' : process.env.SIRI_SESSION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
@@ -51,6 +51,6 @@ module.exports = {
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "905524317852-1612300121",
-    OWN: "905511384572,0"
+    SUPPORT: "905466177402-905432571735",
+    OWN: "905378250571"
 };

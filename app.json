@@ -4,7 +4,7 @@
     "logo": "https://gitlab.com/ErdemBey1/whatssiri/raw/master/20210406_162732.jpg",
     "keywords": ["whatsapp", "userbot", "Siri", "WhatsSiri", "bot", "api", "ai"],
     "repository": "https://github.com/phaticusthiccy/WhatsSiri",
-    "website":   "https://t.me/orgutsahibi",
+    "website":   "https://t.me/erdembey1",
     "success_url": "https://t.me/SiriSupport",
     "stack": "container",
     "env": {

@@ -1,7 +1,7 @@
 {
   "name": "WhatsSiri",
   "version": "1.0",
-  "description": "WhatsSiri project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "description": "WhatsSiri projesi - Whatsapp deneyiminizi iyileştirmeye yardımcı olan bir Whatsapp kullanıcı botu..",
   "main": "./WhatsSiri/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"

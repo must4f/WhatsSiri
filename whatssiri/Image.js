@@ -7,7 +7,6 @@ WhatsSiri SİRİ-ERDEM/BEY
 
 OWNER|ErdemBey
 */
-
 const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
 const Base = require('./Base');
 const Message = require('./Message');

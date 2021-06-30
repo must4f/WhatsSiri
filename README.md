@@ -1,9 +1,6 @@
-[TELEGRAM USERBOTUMUZ BULUNMAKTADIR TIKLA GEL](https://t.me/Siriuserbot)
-
-----
 
 <div align="center">
-  <img src="https://gitlab.com/ErdemBey1/whatssiri/raw/master/20210406_162732.jpg" width="400" height="400">
+  <img src="https://github.com/ErdemBey1/WhatsSiri/blob/master/logo.jpg" width="400" height="400">
   <h1> WhatsSiri</h1>
 </div>
 <p align="center">
@@ -14,6 +11,7 @@
     <br>
 </p>
 
+![Docker Pulls](https://img.shields.io/docker/pulls/erdembey/siriuserbot?style=flat-square)
 ----
 
 ## 📢 Kılavuz
@@ -61,13 +59,10 @@ Kesinlikle Siri yöneticileri sorumluluk kabul etmez.
 Siri'yi kurarak, bu sorumlulukları kabul etmiş sayılırsınız.
 ```
 
-## Teşekkür Ederiz
--[Yusuf Usta](https://github.com/YusufUsta) 
--[phaticusthiccy](https://github.com/phaticusthiccy)
+### Geliştiriciler / Developers
+[![Erdem Bey](https://github.com/erdembey1.png?size=100)](https://github.com/erdembey1)  [![Midy](https://github.com/ribonney.png?size=100)](https://github.com/ribonney)  [![Berce](https://github.com/must4f.png?size=100)](https://github.com/must4f)
 
 
 ## Lisans
 `GNU General Public Licence v3.0` lisansı.
 
-### Telegram USERBOT
--[SİRİ USERBOT](https://github.com/ErdemBey1/Siriuserbot)

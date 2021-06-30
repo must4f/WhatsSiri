@@ -1,4 +1,4 @@
-FROM fusuf/whatsasena:latest
+FROM erdembey/siriuserbot:latest
 
 RUN git clone https://github.com/ErdemBey1/WhatsSiri /root/WhatsSiri
 WORKDIR /root/WhatsSiri/
